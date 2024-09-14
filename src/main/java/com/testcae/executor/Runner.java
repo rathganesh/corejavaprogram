@@ -5,7 +5,8 @@ import com.java.programme.*;
 public class Runner {
     public static void main(String[] args){
         /*CharaterCountInAString charaterCountInAString = new CharaterCountInAString();
-        charaterCountInAString.characterCount("ganesh kumar rath");*/
+        charaterCountInAString.characterCount("ganesh kumar rath");
+        charaterCountInAString.characterCount("ganesh kumar rath8765434567@#$#$@");*/
         /*LeapYear leapYear = new LeapYear();
         leapYear.validateLeapYearOrNot(2024);*/
         /*VowelChecker vowelChecker = new VowelChecker();
@@ -18,6 +19,10 @@ public class Runner {
         stringToInteger.convertStringToIntegerWithOutPredefinedMethod("589");
         stringToInteger.convertStringToIntegerWithOutPredefinedMethod("-589");
         stringToInteger.convertStringToIntegerWithOutPredefinedMethod("-a589");*/
+        ReverseString reverseString = new ReverseString();
+        reverseString.withoutPredefinedMethod("@ganesh#");
+        reverseString.usingStringBuffer("@ganesh#");
+        reverseString.usingStringBufferWithoutPredefinedMethod("@ganesh#");
     }
 
 }
