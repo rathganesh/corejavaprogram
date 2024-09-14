@@ -19,10 +19,13 @@ public class Runner {
         stringToInteger.convertStringToIntegerWithOutPredefinedMethod("589");
         stringToInteger.convertStringToIntegerWithOutPredefinedMethod("-589");
         stringToInteger.convertStringToIntegerWithOutPredefinedMethod("-a589");*/
-        ReverseString reverseString = new ReverseString();
+        /*ReverseString reverseString = new ReverseString();
         reverseString.withoutPredefinedMethod("@ganesh#");
         reverseString.usingStringBuffer("@ganesh#");
-        reverseString.usingStringBufferWithoutPredefinedMethod("@ganesh#");
+        reverseString.usingStringBufferWithoutPredefinedMethod("@ganesh#");*/
+        Palindrome palindrome = new Palindrome();
+        palindrome.usingStringBuffer("deaped");
+        palindrome.usingStringBufferWithoutPredefinedMethod("akpka");
     }
 
 }

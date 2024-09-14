@@ -18,7 +18,7 @@ public class StringToInteger {
             negativeNumber = 1;
         }
         for (int i = this.negativeNumber; i<Input.length(); i++){
-           if (!Character.isDigit(Input.charAt(i))){
+           if ((!Character.isDigit(Input.charAt(i)))){
                throw new NumberFormatException("String "+Input+" format is not correct");
            }
             number = Input.charAt(i) - '0';
