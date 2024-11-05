@@ -23,9 +23,12 @@ public class Runner {
         reverseString.withoutPredefinedMethod("@ganesh#");
         reverseString.usingStringBuffer("@ganesh#");
         reverseString.usingStringBufferWithoutPredefinedMethod("@ganesh#");*/
-        Palindrome palindrome = new Palindrome();
+        /*Palindrome palindrome = new Palindrome();
         palindrome.usingStringBuffer("deaped");
-        palindrome.usingStringBufferWithoutPredefinedMethod("akpka");
+        palindrome.usingStringBufferWithoutPredefinedMethod("akpka");*/
+        String[] name = {"Ganesh", "Deepak", "Rajeesh"};
+        ArangeStringWRTPositionOfCharInStringArray arangeStringWRTPositionOfCharInStringArray = new ArangeStringWRTPositionOfCharInStringArray();
+        System.out.println(arangeStringWRTPositionOfCharInStringArray.printStringAsPerPosition(name));
     }
 
 }
